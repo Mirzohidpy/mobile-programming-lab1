@@ -150,10 +150,19 @@ int main() {
 
 
 // Q2 Answer:
+// C++ pass-by-value, pass-by-pointer, pass-by-reference.
+// Java always pass-by-value, but object refs are passed by value.
+
 
 // Q3 Answer:
+// Overloading is the same function name and different params.
+// It must differ in parameter type/number.
+
 
 // Q4 Answer:
+// Recursioni is function calling itself.
+// Base case stops recursion and it avoids infinite loop/stack overflow.
+
 
 
 // 5. Comments
