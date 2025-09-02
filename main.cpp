@@ -331,10 +331,18 @@ int main() {
 
 
 // Q2 Answer:
+// Inheritance - "is-a". Example: Car is-a Vehicle.
+// Composition - "has-a". Example: Car has-a Engine.
 
 // Q3 Answer:
+// Overriding is redefining base method in subclass.
+// C++: virtual/override keywords.
+// Java: @Override annotation.
 
 // Q4 Answer:
+// The diamond Problem is multiple inheritance ambiguity.
+// C++: solved by virtual inheritance.
+// Java: avoids by only allowing single inheritance + interfaces.
 
 
 // 9. Mixins (in Flutter, Multiple Inheritance in C++) and Interfaces
@@ -378,21 +386,8 @@ int main() {
 }
 
 
-// Q2 Answer:
-// Inheritance - "is-a". Example: Car is-a Vehicle.
-// Composition - "has-a". Example: Car has-a Engine.
+// I don't know what is Mixins & Interfaces
 
-
-// Q3 Answer:
-// Overriding is redefining base method in subclass.
-// C++: virtual/override keywords.
-// Java: @Override annotation.
-
-
-// Q4 Answer:
-// The diamond Problem is multiple inheritance ambiguity.
-// C++: solved by virtual inheritance.
-// Java: avoids by only allowing single inheritance + interfaces.
 
 
 
@@ -437,10 +432,15 @@ int main() {
 
 
 // Q2 Answer:
+// Compile-time (static): method overloading, templates.
+// Runtime (dynamic): virtual functions, overriding.
 
 // Q3 Answer:
+// No Idea
+
 
 // Q4 Answer:
+// No Idea
 
 
 // 11. Async Operations
@@ -475,10 +475,19 @@ int main() {
 
 
 // Q2 Answer:
+// Async helps us with non-blocking tasks.
+// Main thread can keep working while background tasks run.
 
 // Q3 Answer:
+// Parallel: tasks run at the same time.
+// Concurrent: tasks take turns, appear simultaneous.
+
 
 // Q4 Answer:
+// Future/Promise = handle for async result.
+// Java: Future, CompletableFuture.
+// C++: std::future.
+
 
 
 // 12. Exceptions
@@ -511,7 +520,17 @@ int main() {
 
 
 // Q2 Answer:
+// try: code that may fail.
+// catch: handle the exception.
+// finally: always runs cleanup.
+
 
 // Q3 Answer:
+// Checked: must be declared/handled.
+// Unchecked: runtime errors.
+// C++: no such distinction, all exceptions unchecked.
+
 
 // Q4 Answer:
+// Exceptions: cleaner, separate error flow, more info.
+// Downsides: slower, can complicate code if overused.
