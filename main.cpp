@@ -289,10 +289,17 @@ int main() {
 
 
 // Q2 Answer:
+// I forgot how to use them, but according to research:
+// Enums give readable names instead of raw ints/strings and it prevent invalid values, improve clarity.
+
 
 // Q3 Answer:
+// It only allow defined values. Then compiler checks and makes code self-documenting.
+
 
 // Q4 Answer:
+// Java enums can have fields and methods.
+// C++ scoped enums type-safe, but simpler, no methods directly.
 
 
 // 8. Inheritance
