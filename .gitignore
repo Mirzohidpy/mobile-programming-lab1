@@ -1,0 +1,17 @@
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.dSYM/
+*.pch
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
