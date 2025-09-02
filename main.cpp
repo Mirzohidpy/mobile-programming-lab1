@@ -43,7 +43,35 @@ int main(int argc, char* argv[]) {
 //
 // In Java main is void and doesn't return a value. 
 // For non-zero exit status we use System.exit(code).
+ 
+
+// Variables
+#include <iostream>
+int main () {
+    int b = 20;
+    int a = 10;
+    std :: cout << " Before swap : a = " << a << ", b = " << b << std :: endl ;
+
+ // Swapping using arithmetic operations . This logic works in both C++ and Java .
+    a = a + b ; // a becomes 30
+    b = a - b ; // b becomes 10 (30 - 20)
+    a = a - b ; // a becomes 20 (30 - 10)
+
+    std :: cout << " After swap : a = " << a << ", b = " << b << std :: endl ;
+
+    return 0;
+}
+
+// Q2 Answer:
+// 1. Primitive stores actual value (int, double), stack memory.
+// 2. Reference stores address of object/pointer, object in heap.
 
 
+// Q3 Answer:
+// 1. Local inside function, temporary.
+// 2. Class-level fields in class, exist with object.
+// 3. Static shared across all objects.
 
-
+// Q4 Answer:
+// 1. Static type checked at compile time. C++ and Java
+// 2. Dynamic type checked at runtime. Python and JS
