@@ -75,3 +75,54 @@ int main () {
 // Q4 Answer:
 // 1. Static type checked at compile time. C++ and Java
 // 2. Dynamic type checked at runtime. Python and JS
+
+
+// Control flow
+
+#include <iostream>
+
+int main () {
+    int n1 = 0 , n2 = 1 , nextTerm = 0;
+
+    std :: cout << " First 10 Fibonacci numbers : ";
+
+    for ( int i = 1; i <= 10; ++ i ) {
+        if( i == 1) {
+            std :: cout << n1 << " ";
+            continue;
+        }
+        if( i == 2) {
+            std :: cout << n2 << " ";
+            continue ;
+        }
+        nextTerm = n1 + n2 ;
+        n1 = n2 ;
+        n2 = nextTerm ;
+
+        std :: cout << nextTerm << " ";
+    }
+    std :: cout << std :: endl ;
+
+    return 0;
+ }
+
+// Q2 Answer:
+// 1. while checks condition first.
+// 2. do-while runs at least once, checks condition after.
+
+
+// Q3 Andswer:
+// 1. switch main control.
+// 2. case reviews to match.
+// 3. break exits switch.
+// 4. default runs if no case matches.
+
+
+// Q3 Answer:
+// 1. && stops if first is false.
+// 2. || stops if both is false.
+// 3. Example:
+// if (user != nullptr && user->isActive) {
+//    cout << "Welcome back!" << endl;
+// }
+
