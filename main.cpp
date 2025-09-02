@@ -189,10 +189,16 @@ int main() {
 }
 
 // Q2 Answer:
+// Comments helpful others understand our code. It is important when we work in teamwork and long-term projects.
+
 
 // Q3 Answer:
+// I haven't used them, but they auto-generate docs from comment and make APIs easier to read and maintain. (By research)
+
 
 // Q4 Answer:
+// If we write a clear code it reduces need for comments. But still comments useful for complex logic or business rules as I said in teamwork.
+
 
 
 // 6. Classes
