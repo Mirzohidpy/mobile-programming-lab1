@@ -379,10 +379,21 @@ int main() {
 
 
 // Q2 Answer:
+// Inheritance - "is-a". Example: Car is-a Vehicle.
+// Composition - "has-a". Example: Car has-a Engine.
+
 
 // Q3 Answer:
+// Overriding is redefining base method in subclass.
+// C++: virtual/override keywords.
+// Java: @Override annotation.
+
 
 // Q4 Answer:
+// The diamond Problem is multiple inheritance ambiguity.
+// C++: solved by virtual inheritance.
+// Java: avoids by only allowing single inheritance + interfaces.
+
 
 
 // 10. Polymorphism
