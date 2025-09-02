@@ -1,5 +1,5 @@
-Mobile Programming - Lab 1
-ID: 220084
-Student: Mirzohid Abdurazzoqov
-Lab Time: Tuesday 9:00
+# Mobile Programming - Lab 1  
 
+**ID:** 220084  
+**Student:** Mirzohid Abdurazzoqov  
+**Lab Time:** Tuesday 9:00  
