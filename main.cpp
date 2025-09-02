@@ -244,10 +244,19 @@ int main() {
 
 
 // Q2 Answer:
+// Class defines a structure.
+// Object is instance of a class. It is actual data in memory.
+
 
 // Q3 Answer:
+// public: accessible everywhere.
+// private: accessible only inside the class.
+// protected: accessible inside class & subclasses.
+
 
 // Q4 Answer:
+// Constructor is special method to initialize object.
+// In default constructor there is no params and auto-provided if no constructor is defined.
 
 
 // 7. Enums
